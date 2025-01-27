@@ -13,4 +13,5 @@ ${leads_records_id_data}        ${CURDIR}/lead_records_id.json
 
 Lead
     Create Leads    ${lead_creation_data}
+    Sleep    ${60}
 
